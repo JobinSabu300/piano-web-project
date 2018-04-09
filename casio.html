@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Virtual Piano</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="main_body">
+
+	<div id="upper_body">
+
+
+		<div id="s_left">
+      <img src="grill.png" width="160px" height="160px">
+      <img src="grill.png" width="120px" height="120px" style="margin-left:4px; margin-bottom: 4px;">
+		</div>
+
+		<div id="screen">
+      <div id="ls">
+        <div id="vol">
+          <p class="lb">VOLUME</p>
+          <button id="vup" value="UP" onclick="volUp()">UP</button>
+          <button id="vdown" value="DOWN" onclick="volDown()">DOWN</button>
+        </div>
+
+        <button id="start" value="START">START</button>
+      </div>
+
+
+
+      <div id="ms">
+        <div id="ms_status">
+          <p style="margin-left: 4px; color:brown;">Volume </p><p id="vd" value="5">5</p>
+          <p style="margin-left: 10px; color:brown;">Tempo </p><p id="td">5</p>
+        </div><hr>
+        <div id="musical_note">
+          <p id="mn_dis" style="color:#0D47A1"></p>
+        </div>
+      </div>
+
+
+
+      <div id="rs">
+        <div id="temp">
+          <p class="lb">TEMPO</p>
+          <button id="tup" value="UP">UP</button>
+          <button id="tdown" value="DOWN">DOWN</button>
+        </div>
+
+        <button id="stop" value="STOP">STOP</button>
+      </div>
+		</div>
+
+		<div id="s_right">
+      <img src="grill.png" width="120px" height="120px;" style="margin-right:4px; margin-bottom: 4px;">
+      <img src="grill.png" width="160px" height="160px;" >
+		</div>
+
+	</div>
+
+	<div id="keys">
+
+	  <!-- Piano -->
+  <ul class="piano">
+    <li class="key">
+      <span class="white-key" id="1C" value="1C"></span>
+      <span class="black-key" id="1Cs"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" id="1D"></span>
+      <span class="black-key" id="1Ds"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" id="1E"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" id="1F"></span>
+      <span class="black-key" id="1Fs"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" id="1G"></span>
+      <span class="black-key" id="1Gs"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" id="2A"></span>
+      <span class="black-key" id="2As"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" id="2B"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" id="2C"></span>
+      <span class="black-key" id="2Cs"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" id="2D"></span>
+      <span class="black-key" id="2Ds"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" id="2E"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" id="2F"></span>
+      <span class="black-key" id="2Fs"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" id="2G"></span>
+      <span class="black-key" id="2Gs"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" id="3A"></span>
+      <span class="black-key" id="3As"></span>
+    </li>
+    <li class="key">
+      <span class="white-key" id="3B"></span>
+    </li>
+  </ul>
+  <!-- End Piano -->
+	</div>
+
+	</div>
+
+<div class="footer">
+  <p>Designed &amp; Developed by <a href="https://github.com/JobinSabu300">Jobin Sabu</a></p>
+</div>
+
+	<script type="text/javascript" src="java_s.js"></script>
+</body>
+</html>
